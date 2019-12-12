@@ -54,7 +54,7 @@
 					<h2>What are we going to speak about today</h2>
 					<p class="fragment fade-up"><span class="fragment highlight-red">What is
 							React?</span> </p>
-					<p class="fragment fade-up"><span class="fragment highlight-red">Why is
+					<p class="fragment fade-up"><span class="fragment highlight-red">Why 
 							React?</span></p>
 					<p class="fragment fade-up"><span class="fragment highlight-red">The
 							fundamentals</span></p>
@@ -106,7 +106,7 @@
 								<aside class="notes"> To stay in touch it is good to know ...
 								</aside>
 							</section>
-							<section data-background-color="red">
+							<section data-background-color="MAROON">
 								<h2>Point conclusion</h2>
 								<p class="fragment fade-up">Then let us <a>keep</a> <a>moving</a></p>
 								<aside class="notes"> a)REACTJS is a library MADE BY Facebook.
@@ -117,7 +117,7 @@
 						<!--------------------------------------------------------------------------------------------->
 						<section>
 							<section>
-								<h2>Why is React?</h2>
+								<h2>Why  React?</h2>
 								<p><blockquote>&ldquo;Numbers are said to rule the world. No, they only
 										show how they
 										rule the world.&ldquo;</blockquote>
@@ -144,15 +144,16 @@
 										is easy to learn</span></p>
 								<p class="fragment fade-up"><span class="fragment highlight-red">b) It
 										is backed by a strong community</span></p>
-								<p class="fragment fade-up"><span class="fragment highlight-red">d) It
+								<p class="fragment fade-up"><span class="fragment highlight-red">c) It
 										ensures faster rendering</span></p>
-								<p class="fragment fade-up"><span class="fragment highlight-red">e) It
+								<p class="fragment fade-up"><span class="fragment highlight-red">d) It
 										guarantees stable code</span></p>
 								<p class="fragment fade-up">...</p>
 								<aside class="notes"> a) For a junior developer it is very important 
 									b)analogy with google serfings in way to solve the problem/find information
-									d)in our time it is very important to optimize
-									e)changes shouldent leed to crash of code 
+									c)Building a high-load application it is essential to consider how the structure will impact the overall app performance. To solve the issue Facebook development team has introduced Virtual DOM.
+									As the name suggests, it is a virtual representation of the document object model, so all the changes are applied to the virtual DOM first and then, using diff algorithm, the minimal scope of necessary DOM operations is calculated. Finally, the real DOM tree is updated accordingly, ensuring minimum time consumed. This method guarantees better user experience and higher app performance.
+									d)ReactJS uses only downward data flow. Changing an object, developers just modify its state, make changes, and, after that, only particular components will be updated. This structure of data binding ensures code stability and continuous app performance.
 									</aside> 
 							</section>
 							<section id="fragments">
@@ -165,7 +166,7 @@
 									<aside class="notes"> ...
 											</aside> 
 							</section>
-							<section data-background-color="red">
+							<section data-background-color="MAROON">
 									<h2>Point conclusion</h2>
 									<p class="fragment fade-up">Then let us <a>keep</a> <a>moving</a></p>
 								<aside class="notes"> 	a) Statistical popularity.
@@ -181,7 +182,7 @@
 								<h2>The fundamentals</h2>
 								<p class="fragment fade-up"><span class="fragment highlight-red">a) The
 										components</span></p>
-								<p class="fragment fade-up"><span class="fragment highlight-red">b) ES6</span></p>
+								<p class="fragment fade-up"><span class="fragment highlight-red">b) JSX</span></p>
 								<p class="fragment fade-up"><span class="fragment highlight-red">c)
 										Props</span></p>
 								<p class="fragment fade-up"><span class="fragment highlight-red">d)
@@ -200,7 +201,7 @@
 										</aside> 
 							</section>
 							<section data-background-color="grey">
-								<h2>ES6</h2>
+								<h2>JSX</h2>
 								<p class="fragment fade-up">It is a very convinient <span
 										class="fragment highlight-red">tool</span> for a <span class="fragment
 										highlight-red">React</span></p>
@@ -214,7 +215,7 @@
 								<h2>Props</h2>
 								<p class="fragment fade-up">props <span class="fragment highlight-red">=</span>
 									properties</p>
-								<pre><code class="javascript" class="fragment fade-up" data-trim contenteditable style="font-size: 24px; ">
+								<pre><code class="javascript" class="fragment fade-up" data-trim contenteditable style="font-size: 20px;">
 									const Greetings = (props) => <div>Hey you! {props.firstName} {props.lastName}!</div>;
 
 									const App = () => (
@@ -283,7 +284,7 @@
 											<aside class="notes"> they are halfs of one component but the schouldnt be mixed in bad way
 												</aside> 
 								</section>
-								<section data-background-color="red">
+								<section data-background-color="MAROON">
 										<h2>Point conclusion</h2>
 										<p class="fragment fade-up">Then let us <a>keep</a> <a>moving</a></p>
 									<aside class="notes"> Here are not all important parts of the library. We saw main part - component(the base here). Props and state which are completing each other and ES6 which makes our code more 'readable'.
